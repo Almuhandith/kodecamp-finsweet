@@ -222,17 +222,28 @@ a {
     padding-bottom: 35px;
 }
 
-.hover-btn {
-    display: block;
-    width: 316px;
-    height: 232px;
-    background-color: white;
+.flex-container {
+    margin-left: 100px;
 }
 
-.orange-butn{
-    display: block;
-    width: 316px;
-    height: 232px;
+.flex-box {
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 180px;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    color: #000;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-box:hover {
     background-color: #FF6433;
     color: white;
 }
