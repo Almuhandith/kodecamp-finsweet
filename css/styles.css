@@ -141,7 +141,7 @@
 
 #quoteSection .left-section .image-box img {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #quoteSection .left-section .text-box {
@@ -272,14 +272,14 @@ a {
     width: 780px;
     height: 450px;
     background-image: url(../img/car.png);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #contactSection .right-contact-section {
     width: 800px;
     height: 450px;
     background-image: url(../img/plug.png);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #contactSection h3{
@@ -293,7 +293,7 @@ a {
 
 #contactSection img {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #brandSection {
@@ -304,5 +304,5 @@ a {
 }
 
 #brandSection img {
-    overflow-x: hidden;
+    overflow: hidden;
 }
