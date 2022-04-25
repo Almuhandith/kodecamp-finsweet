@@ -141,6 +141,7 @@
 
 #quoteSection .left-section .image-box img {
     width: 100%;
+    overflow-x: hidden;
 }
 
 #quoteSection .left-section .text-box {
@@ -300,5 +301,8 @@ a {
     font-size: 48px;
     margin: 60px 0px;
     font-family: 'Manrope', sans-serif;
+}
+
+#brandSection img {
     overflow-x: hidden;
 }
