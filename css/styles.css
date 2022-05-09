@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -314,6 +318,7 @@ a {
 
 #ratingSection {
     background-color: #F2F2F2;
+    width: 100%;
 }
 
 #ratingSection .rating-section {
@@ -351,6 +356,7 @@ a {
 #reviewSection {
     background-color: #F2F2F2;
     font-family: 'Manrope', sans-serif;
+    width: 100%;
 }
 
 #reviewSection h2 {
@@ -525,6 +531,7 @@ a {
 
 .copyright {
     color: #939191;
+    margin-left: 200px;
 }
 
 /* Services page */
@@ -894,6 +901,27 @@ a {
 
     #diagnosticsSection .auto-diagnostics {
         width: 100%;
+        margin-left: 30px;
+    }
+
+    #diagnosticsSection .auto-diagnostics .image-wheel-section img{
+        width: 100%;
+    }
+
+    #diagnosticsSection .auto-diagnostics h2 {
+        font-size: 35px;
+    }
+
+    #diagnosticsSection .auto-diagnostics p {
+        font-size: 16px;
+    }
+
+    #diagnosticsSection .auto-diagnostics .details {
+        width: 50%;
+    }
+
+    #processSection .flex {
+        flex-direction: column;
     }
 
 
@@ -989,6 +1017,15 @@ a {
 
     #diagnosticsSection .diagnostics-offer {
         margin-left: 100px;
-        width: 100%;
+        width: 50%;
+        max-height: 760px;
+    }
+}
+@media (max-width: 1025px ) and (min-width: 768px) {
+    .copyright {
+        margin-left: 100px;
+    }
+    #toolSection .orange-text {
+        padding: 48px 15px 24px 28px;
     }
 }
