@@ -808,6 +808,29 @@ a {
         margin-bottom: 40px;
     }
 
+    #helpSection .number-image .img {
+        width: 80%;
+    }
+
+    #helpSection .right-help-section .text-square h4 {
+        font-size: 25px;
+    }
+
+    #helpSection .right-help-section .text-square p {
+        font-size: 14px;
+    }
+
+    #helpSection .right-help-section .number-image .number {
+        width: 60px;
+        padding-top: 10px;
+    }
+
+    #helpSection .right-help-section .number-image .line{
+        padding-left: 32px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
     #offerSection h6, #faqSection h2, h2 {
         font-size: 35px;
     }
