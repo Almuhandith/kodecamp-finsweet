@@ -904,6 +904,7 @@ a {
     #topFooter .flex-footer {
         margin-bottom: 30px;
         margin-right: 200px;
+        width: 100px;
     }
 
     .main-footer {
@@ -914,6 +915,18 @@ a {
     .right-footer-section {
         flex-direction: column;
         padding-right: 30px;
+    }
+
+    .right-footer-section ul li {
+        margin-right: 15px;
+    }
+
+    #bottomFooter .white-logo {
+        margin-right: 200px;
+    }
+
+    .right-footer-section .white-navigation ul li a {
+        font-size: 12px;
     }
 
     /* Services page */
